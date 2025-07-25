@@ -1,0 +1,5 @@
+PyQt5>=5.15
+opencv-python>=4.5
+pyttsx3
+qdarkstyle
+numpy
