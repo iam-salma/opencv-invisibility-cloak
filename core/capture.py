@@ -6,7 +6,7 @@ from .utils import text_to_speech
 def is_lighting_good(frame):
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     mean_brightness = gray.mean()
-    return 50 < mean_brightness < 230
+    return 100 < mean_brightness < 300
 
 def capture_background(cap, status_bar):
     status_bar.showMessage("Capturing background... Please move out of the frame.")
