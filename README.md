@@ -28,29 +28,29 @@ A real-time computer vision application that creates the illusion of invisibilit
 
 ## ✨ Features
 
-- 📷 Live Webcam Feed
-  → Real-time video stream using OpenCV in PyQt5 GUI.
+📷  Live Webcam Feed  
+→ Real-time video stream using OpenCV embedded in PyQt5.
 
-- 🧥 Invisible Cloak Effect
-  → Detects and hides the blue cloak.
+🧥  Invisible Cloak Effect  
+→ Hides cloak based on color detection (e.g., blue or red cloak).
 
-- 🧼 Noise Reduction
-  → Morphological operations for cleaner mask (open, dilate, erode).
+🧼  Noise Reduction  
+→ Smoothens mask with morphological operations (open → dilate → erode).
 
-- 🖼️ Background Capture
-  → Captures noise-free static background (averaged over 60 frames).
+🖼️  Background Capture  
+→ Captures a clean, averaged background over 60 frames.
 
-- 🔁 Automatic Frame Flipping
-  → Flips frame horizontally to match mirror view.
+🔁  Mirror View  
+→ Flips video horizontally for natural webcam behavior.
 
-- 💬 Voice Feedback
-  → Guides user using text-to-speech during background capture.
+💬  Voice Feedback  
+→ Text-to-speech guides user during background capture.
 
-- 📊 Brightness Detection
-  → Skips background capture if lighting is too low.
+🌗  Lighting Detection  
+→ Skips background capture if lighting is too low.
 
-- 🎨 GUI with PyQt5
-  → Clean interface with dark theme and real-time preview.
+🎨  Dark Mode GUI  
+→ Modern interface with a dark theme and live video preview.
 
 ---
 
@@ -79,7 +79,7 @@ A real-time computer vision application that creates the illusion of invisibilit
 
 ---
 
-### 🚀 Getting Started
+### Getting Started
 
 #### 1. Clone the repo
 ```bash
@@ -98,7 +98,7 @@ A real-time computer vision application that creates the illusion of invisibilit
 
 ---
 
-### Tips for Best Results
+### 👉 Tips for Best Results
 - Use a solid-colored blue cloak.
 - Ensure even lighting — avoid shadows or reflections.
 - Capture the background without the person.
