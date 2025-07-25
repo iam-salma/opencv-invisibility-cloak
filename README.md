@@ -99,7 +99,7 @@ A real-time computer vision application that creates the illusion of invisibilit
 ---
 
 ### 👉 Tips for Best Results
-- Use a solid-colored blue cloak.
+- Use a solid blue-colored cloak.
 - Ensure even lighting — avoid shadows or reflections.
 - Capture the background without the person.
 
