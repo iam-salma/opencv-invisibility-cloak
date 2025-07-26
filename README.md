@@ -32,7 +32,7 @@ A real-time computer vision application that creates the illusion of invisibilit
 → Real-time video stream using OpenCV embedded in PyQt5.
 
 🧥  Invisible Cloak Effect  
-→ Hides cloak based on color detection (e.g., blue or red cloak).
+→ Hides cloak based on blue color detection.
 
 🧼  Noise Reduction  
 → Smoothens mask with morphological operations (open → dilate → erode).
